@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual C# Express 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsApplication1", "WindowsFormsApplication1\WindowsFormsApplication1.csproj", "{54B62061-D4D8-4D1D-9EE9-0C041C949353}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54B62061-D4D8-4D1D-9EE9-0C041C949353}.Debug|x86.ActiveCfg = Debug|x86
+		{54B62061-D4D8-4D1D-9EE9-0C041C949353}.Debug|x86.Build.0 = Debug|x86
+		{54B62061-D4D8-4D1D-9EE9-0C041C949353}.Release|x86.ActiveCfg = Release|x86
+		{54B62061-D4D8-4D1D-9EE9-0C041C949353}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

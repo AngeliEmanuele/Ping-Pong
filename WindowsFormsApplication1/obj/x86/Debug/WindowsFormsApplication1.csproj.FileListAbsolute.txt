@@ -1,0 +1,31 @@
+C:\Documents and Settings\Orientamento\Desktop\Pederiva Veronica\Pong\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+C:\Documents and Settings\Orientamento\Desktop\Pederiva Veronica\Pong\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+C:\Documents and Settings\Orientamento\Desktop\Pederiva Veronica\Pong\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Orientamento\Desktop\Pederiva Veronica\Pong\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+C:\Documents and Settings\Orientamento\Desktop\Pederiva Veronica\Pong\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Documents and Settings\Orientamento\Desktop\Pederiva Veronica\Pong\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Documents and Settings\Orientamento\Desktop\Pederiva Veronica\Pong\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Documents and Settings\Orientamento\Desktop\Pederiva Veronica\Pong\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Documents and Settings\Orientamento\Desktop\Pederiva Veronica\Pong\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+\\Ica2svr09\G2\3agr13\Pederiva Veronica\Pong\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+\\Ica2svr09\G2\3agr13\Pederiva Veronica\Pong\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+\\Ica2svr09\G2\3agr13\Pederiva Veronica\Pong\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+\\Ica2svr09\G2\3agr13\Pederiva Veronica\Pong\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+\\Ica2svr09\G2\3agr13\Pederiva Veronica\Pong\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+\\Ica2svr09\G2\3agr13\Pederiva Veronica\Pong\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+\\Ica2svr09\G2\3agr13\Pederiva Veronica\Pong\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+\\Ica2svr09\G2\3agr13\Pederiva Veronica\Pong\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+\\Ica2svr09\G2\3agr13\Pederiva Veronica\Pong\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+\\Ica2svr09\pubblica\Pong\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+\\Ica2svr09\pubblica\Pong\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+\\Ica2svr09\pubblica\Pong\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.exe
+\\Ica2svr09\pubblica\Pong\WindowsFormsApplication1\bin\Debug\WindowsFormsApplication1.pdb
+\\Ica2svr09\pubblica\Pong\WindowsFormsApplication1\obj\x86\Debug\ResolveAssemblyReference.cache
+\\Ica2svr09\pubblica\Pong\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form1.resources
+\\Ica2svr09\pubblica\Pong\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+\\Ica2svr09\pubblica\Pong\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.read.1.tlog
+\\Ica2svr09\pubblica\Pong\WindowsFormsApplication1\obj\x86\Debug\GenerateResource.write.1.tlog
+\\Ica2svr09\pubblica\2013_2014\Pong\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+\\Ica2svr09\pubblica\2013_2014\Pong\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
+C:\Documents and Settings\4cgr02\Desktop\X Angeli Busin\Pong\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.exe
+C:\Documents and Settings\4cgr02\Desktop\X Angeli Busin\Pong\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.pdb
