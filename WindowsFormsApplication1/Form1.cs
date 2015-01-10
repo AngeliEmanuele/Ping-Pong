@@ -59,16 +59,12 @@ namespace WindowsFormsApplication1
             double b = t + PnlBall.Height;
             
             
-            // x = pnlRight.Left
             int x = pnlRight.Left;
 
-            // y = pnlRight.Top 
             int y = pnlRight.Top;
 
-            // a = pnlLeft.Left 
             int a = pnlLeft.Left;
 
-            // c = pnlLeft.Top
             int c = pnlLeft.Top;
 
             if (((l + PnlBall.Width) >= x) &&
