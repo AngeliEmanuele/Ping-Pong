@@ -15,17 +15,26 @@ namespace WindowsFormsApplication1
         double angle; // angolo in gradi traiettoria della pallina
         double leftReal; // dove è la palllina veramente
         double topReal;
+        int inc;
+        int punti1, punti2;
         
     
         public Form1()
         {
             InitializeComponent();
-          // situazione di partenza della pallina
-            speed = 5;
-            angle = 165;
             leftReal = pnlBall.Left;
             topReal = pnlBall.Top;
 
+          // situazione di partenza della pallina
+            speed = 5;
+            angle = 180;
+            inc = 5;
+            punti1 = 0;
+            punti2 = 0;
+            label1.Text = punti1.ToString();
+            label2.Text = punti2.ToString();
+            
+            
         }
                 
         
