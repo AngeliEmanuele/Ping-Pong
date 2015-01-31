@@ -161,7 +161,14 @@ namespace WindowsFormsApplication1
                 pnlLeft.Top = pnlLeft.Top - inc;
             if (e.KeyCode == Keys.Z)
                 pnlLeft.Top = pnlLeft.Top + inc;
-        }       
+        }   
+        
+        private void Pausa(object sender, EventArgs e)
+        {
+            timer.Enabled = false;
+ 
+        } 
     }
   }
+  
 
