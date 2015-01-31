@@ -56,7 +56,27 @@ namespace Pong
   pnlPadleRight.Top = pnlPadleLeft.Top;
  
   }
-  
+ 
+ //Bottone per l'avvio
+  private void button1_Click(object sender, EventArgs e)
+  {
+  timer.Enabled = true;
+  }
+  //Bottone per mettere in pausa
+   private void Pausa(object sender, EventArgs e)
+  {
+  timer.Enabled = false;
+ 
+  }
+ 
+  private void pnlBall_Paint(object sender, PaintEventArgs e)
+  {
+ 
+  }
+ 
+  private void pnlPadleLeft_Paint(object sender, PaintEventArgs e)
+  {
+  }
   
   
   
