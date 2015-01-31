@@ -12,7 +12,7 @@ namespace WindowsFormsApplication1
     public partial class Form1 : Form
     {
         double speed; // velocità della pallina
-        double angle; // angolo (in gradi) traiettoria della pallina
+        double angle; // angolo in gradi traiettoria della pallina
         double leftReal; // dove è la palllina veramente
         double topReal;
         
