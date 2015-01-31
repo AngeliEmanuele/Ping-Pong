@@ -148,6 +148,36 @@ namespace Pong
  
   }
   
+  private void frmPong_KeyDown(object sender, KeyEventArgs e)
+  {
+  // MessageBox.Show("down " + e.KeyCode.ToString());
+  if (e.KeyCode == Keys.PageUp)
+  {
+  pnlPadleRight.Top = pnlPadleRight.Top - incPadle;
+  if (pnlPadleRight.Top <= 0)
+  pnlPadleRight.Top = 1;
+  }
+  if (e.KeyCode == Keys.PageDown)
+  {
+  pnlPadleRight.Top = pnlPadleRight.Top + incPadle;
+   if (pnlPadleRight.Bottom > pnlPong.Height)
+  pnlPadleRight.Top = pnlPong.Height - pnlPadleRight.Height;
+  }
+ 
+  if (e.KeyCode == Keys.W)
+  {
+  pnlPadleLeft.Top = pnlPadleLeft.Top - incPadle;
+  if (pnlPadleLeft.Top <= 0)
+ pnlPadleLeft.Top = 1;
+  }
+  if (e.KeyCode == Keys.S)
+  {
+  pnlPadleLeft.Top = pnlPadleLeft.Top + incPadle;
+  if (pnlPadleLeft.Bottom > pnlPong.Height)
+  pnlPadleLeft.Top = pnlPong.Height - pnlPadleLeft.Height;
+  }
+  }
+  
   
   
   
