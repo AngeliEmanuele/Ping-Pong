@@ -64,5 +64,91 @@ namespace Pong
       this.Play.Text = "Play";
       this.Play.UseVisualStyleBackColor = true;
       this.Play.Click += new System.EventHandler(this.button1_Click);
+      //
+      // pnlBall
+      //
+      this.pnlBall.BackColor = System.Drawing.Color.Plum;
+      this.pnlBall.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+      this.pnlBall.Location = new System.Drawing.Point(483, 239);
+      this.pnlBall.Name = "pnlBall";
+      this.pnlBall.Size = new System.Drawing.Size(18, 19);
+      this.pnlBall.TabIndex = 2;
+      this.pnlBall.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlBall_Paint);
+      //
+      // pnlPadleRight
+      //
+      this.pnlPadleRight.Anchor = System.Windows.Forms.AnchorStyles.Right;
+      this.pnlPadleRight.BackColor = System.Drawing.Color.SpringGreen;
+      this.pnlPadleRight.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+      this.pnlPadleRight.Location = new System.Drawing.Point(644, 122);
+      this.pnlPadleRight.Name = "pnlPadleRight";
+      this.pnlPadleRight.Size = new System.Drawing.Size(14, 100);
+      this.pnlPadleRight.TabIndex = 1;
+      //
+      // pnlPadleLeft
+      //
+      this.pnlPadleLeft.Anchor = System.Windows.Forms.AnchorStyles.Left;
+      this.pnlPadleLeft.BackColor = System.Drawing.Color.SpringGreen;
+      this.pnlPadleLeft.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+      this.pnlPadleLeft.Location = new System.Drawing.Point(23, 120);
+      this.pnlPadleLeft.Name = "pnlPadleLeft";
+      this.pnlPadleLeft.Size = new System.Drawing.Size(14, 100);
+      this.pnlPadleLeft.TabIndex = 0;
+      this.pnlPadleLeft.Paint += new System.Windows.Forms.PaintEventHandler(this.pnlPadleLeft_Paint);
+      //
+      // lblPuntiOne
+      //
+      this.lblPuntiOne.AutoSize = true;
+      this.lblPuntiOne.Font = new System.Drawing.Font("Impact", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.lblPuntiOne.ForeColor = System.Drawing.Color.White;
+      this.lblPuntiOne.Location = new System.Drawing.Point(109, 15);
+      this.lblPuntiOne.Name = "lblPuntiOne";
+      this.lblPuntiOne.Size = new System.Drawing.Size(34, 39);
+      this.lblPuntiOne.TabIndex = 4;
+      this.lblPuntiOne.Text = "0";
+      //
+      // lblPuntiTwo
+      //
+      this.lblPuntiTwo.AutoSize = true;
+      this.lblPuntiTwo.Font = new System.Drawing.Font("Impact", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+      this.lblPuntiTwo.ForeColor = System.Drawing.Color.White;
+      this.lblPuntiTwo.Location = new System.Drawing.Point(524, 15);
+      this.lblPuntiTwo.Name = "lblPuntiTwo";
+      this.lblPuntiTwo.Size = new System.Drawing.Size(34, 39);
+      this.lblPuntiTwo.TabIndex = 5;
+      this.lblPuntiTwo.Text = "0";
+      //
+      // timer
+      //
+      this.timer.Interval = 10;
+      this.timer.Tick += new System.EventHandler(this.timer_Tick);
+      //
+      // frmPong
+      //
+      this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+      this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+      this.ClientSize = new System.Drawing.Size(677, 315);
+      this.Controls.Add(this.pnlPong);
+      this.KeyPreview = true;
+      this.Name = "frmPong";
+      this.Text = "Pong";
+      this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmPong_KeyDown);
+      this.pnlPong.ResumeLayout(false);
+      this.pnlPong.PerformLayout();
+      this.ResumeLayout(false);
+     
+      }
+     
+      #endregion
+     
+      private System.Windows.Forms.Panel pnlPong;
+      private System.Windows.Forms.Button Play;
+      private System.Windows.Forms.Panel pnlBall;
+      private System.Windows.Forms.Panel pnlPadleRight;
+      private System.Windows.Forms.Panel pnlPadleLeft;
+      private System.Windows.Forms.Timer timer;
+      private System.Windows.Forms.Label lblPuntiTwo;
+      private System.Windows.Forms.Label lblPuntiOne;
+      private System.Windows.Forms.Button button1;
     }
 }
