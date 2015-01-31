@@ -7,12 +7,10 @@ namespace WindowsFormsApplication1
 {
     static class Program
     {
-        /// <summary>
-        /// Punto di ingresso principale dell'applicazione.
-        /// </summary>
         [STAThread]
-        static void Main()
+        static void Main()                 //main
         {
+            // Chiama alle funzioni principali per l'avvio del gioco 
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Form1());
