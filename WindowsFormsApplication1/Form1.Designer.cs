@@ -59,7 +59,7 @@
             this.pnlGioco.Controls.Add(this.PnlBall);
             this.pnlGioco.Location = new System.Drawing.Point(0, 0);
             this.pnlGioco.Name = "pnlGioco";
-            this.pnlGioco.Size = new System.Drawing.Size(464, 359);
+            this.pnlGioco.Size = new System.Drawing.Size(450, 350);
             this.pnlGioco.TabIndex = 0;
             // 
             // label2
@@ -67,9 +67,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label2.Location = new System.Drawing.Point(316, 59);
+            this.label2.Location = new System.Drawing.Point(300, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(21, 23);
+            this.label2.Size = new System.Drawing.Size(20, 20);
             this.label2.TabIndex = 8;
             this.label2.Text = "0";
             // 
@@ -78,16 +78,16 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial Black", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DodgerBlue;
-            this.label1.Location = new System.Drawing.Point(92, 59);
+            this.label1.Location = new System.Drawing.Point(90, 50);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(21, 23);
+            this.label1.Size = new System.Drawing.Size(20, 20);
             this.label1.TabIndex = 7;
             this.label1.Text = "0";
             // 
             // pnlRight
             // 
             this.pnlRight.BackColor = System.Drawing.Color.DodgerBlue;
-            this.pnlRight.Location = new System.Drawing.Point(433, 124);
+            this.pnlRight.Location = new System.Drawing.Point(400, 100);
             this.pnlRight.Name = "pnlRight";
             this.pnlRight.Size = new System.Drawing.Size(17, 100);
             this.pnlRight.TabIndex = 6;
@@ -102,7 +102,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(198, 268);
+            this.button1.Location = new System.Drawing.Point(200, 300);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 4;
@@ -123,7 +123,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ClientSize = new System.Drawing.Size(462, 356);
+            this.ClientSize = new System.Drawing.Size(500, 400);
             this.Controls.Add(this.pnlGioco);
             this.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.KeyPreview = true;
