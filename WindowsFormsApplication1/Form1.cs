@@ -20,15 +20,11 @@ namespace WindowsFormsApplication1
         public Form1()
         {
             InitializeComponent();
-            leftReal = PnlBall.Left;
-            topReal= PnlBall.Top;
+          // situazione di partenza della pallina
             speed = 5;
-            angle = 180;
-            inc = 5;
-            punti1 = 0;
-            punti2 = 0;
-            label1.Text = punti1.ToString();
-            label2.Text = punti2.ToString();
+            angle = 165;
+            leftReal = pnlBall.Left;
+            topReal = pnlBall.Top;
 
         }
                 
