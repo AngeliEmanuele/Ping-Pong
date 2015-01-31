@@ -20,6 +20,42 @@ namespace Pong
  
   int puntiOne, puntiTwo;
   
+  public frmPong()
+  {
+  InitializeComponent();
+ 
+  incPadle = 30;
+ 
+  InizializeSet();
+ 
+  }
+ 
+  private void InizializeSet()
+  {
+  puntiOne = 0;
+  puntiTwo = 0;
+  InizializeGame();
+  }
+ 
+  private void InizializeGame()
+  {
+  // situazione di partenza della pallina
+  lblPuntiOne.Text = puntiOne.ToString();
+  lblPuntiTwo.Text = puntiTwo.ToString();
+ 
+  speed = 18;
+  angle = 180;
+ 
+  pnlBall.Left = pnlPong.Width / 2;
+  pnlBall.Top = pnlPong.Height / 2;
+ 
+  leftReal = pnlBall.Left;
+  topReal = pnlBall.Top;
+ 
+  pnlPadleLeft.Top = (pnlPong.Height / 2) - (pnlPadleLeft.Height /2);
+  pnlPadleRight.Top = pnlPadleLeft.Top;
+ 
+  }
   
   
   
